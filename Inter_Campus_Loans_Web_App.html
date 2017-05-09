@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+   Inter_Campus_Loans Web App.html
+   
+   Copyright 2017 Indiemandeceased <indieman@outlook.com>
+   
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+   
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+   
+   You should have received a copy of the GNU General Public License
+   along with this program; if not, write to the Free Software
+   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+   MA 02110-1301, USA.
+   
+   
+-->
+
+<head>
+<meta charset="utf-8" />
+<title>Inter_Campus_Loans Web App.</title>
+<meta name="generator" content="Geany 1.29" />
+<meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="ICL.css" type="text/css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="Serversidevalidation.php"></script>
+	
+</head>
+
+<body class="container-fluid">
+	<div class="title">
+			<h1>Inter-Campus Loans Web App.</h1>
+			<h2>Created by Christopher Willson 2017</h2>
+			<p> Contact christopher.willson@riseholme.ac.uk</p>
+			</div>
+			
+	<div class="explanation">
+			<p>This form will enable you to order 'Inter-Campus' loans from any of our campus LRC's.<br><br>
+			When the OK button is clicked it will automatically send an email to the LRC team with the details of your order.<br><br>
+			If there are any problems or issues encountered please email christopher.willson@riseholme.ac.uk.<br><br>
+			Comments & Suggestions are also most welcome at the above email address.<br><br>
+			</p>
+	<!-- Create surronding div or form tags to style whole area to fit page inc. container-fluid statement-->
+		
+			<form class="form">
+				<fieldset>
+					<div class"personal">		
+						<legend class="pd">Personal Details:</legend>
+							<div class="table">
+							<label>Student Name:</label> <input class="box" type="text" size="20" placeholder="Name">
+							<label>Student Number:</label> <input class="box" type="text" size="20" placeholder="Student Number"><!--TODO: Add in an email address for student notification-->
+							<label>Course:</label> <input class="box" type="text" size="20" placeholder="Course">
+							<!--TODO! Add a staff or student selection button to this section-->
+							</div>
+					</div>
+				</fieldset>
+				
+									
+				<fieldset>	
+					<div class="Item">
+						<legend class="id">Item Details:</legend>
+						<div class"table">
+						<label>Title:</label> <input class="box" type="text"size"20" placeholder="Title">
+						<label>Class Mark:</label> <input class="box" type="text" size"20" placeholder="Class Mark">
+						<Label>Author(s)</Label> <input class="box" type="text" size"20" placeholder="Author(s) Name">
+						<!--Add date field-->
+						</div>
+						</div>
+				</fieldset>
+						
+				<fieldset>
+					<div class="row">
+						<div class="col-md-4 sndfrm">
+							<label>Send From Campus:</label>
+								<select id=SndFrm placeholder="Campus to be sent from">
+									<option class="box" value="1">Bishop Burton Campus</option>
+									<option class="box" value="2">Showground Campus</option>
+									<option class="box" value="3">Riseholme Campus</option>
+								</select>   
+						</div>
+
+						<div class="col-md-4 sndto">						 
+							<label>Send to Campus:</label>
+								<select id=SndTo placeholder="Campus to be sent to">
+									<option class="box" value="1">Riseholme Campus</option>
+									<option class="box" value="2">Showground Campus</option>
+									<option class="box" value="3">Bishop Burton Campus</option>
+								</select>
+						</div>
+					</div>
+				
+																
+							<div class="buut">	
+								<button class="btn btn-default" id="OKbtn">OK</button>
+								<button class="btn btn-default" id="Clearbtn">Clear</button>
+							</div>
+				</fieldset>					
+			</form>
+			
+	</body>
+
+</html>

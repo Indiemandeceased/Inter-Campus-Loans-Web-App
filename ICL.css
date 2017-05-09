@@ -1,0 +1,83 @@
+.title{
+  padding: 50px 20px 20px 20px;
+  margin: 40px 80px 5px 80px;
+  text-align: center;
+  font-family: Helvetica, Arial, Sans-serif;
+  border: solid;
+  color: #303c64;
+  background-color: #18625e;
+  
+}
+.explanation{
+	padding: 5px 5px 5px 5px;
+	margin: 5px 80px 5px 80px;
+	text-align: center;
+	font-family: Helvetica, Arial, Sans-serif;
+	border: solid;
+	color: #303c64;
+	background-color: #777777;
+}
+.pd{
+	border: solid;
+	color: #303c64;
+	padding: 40px 80px 40px 80px;
+	margin: 40px 80px 40px 80px;
+	text-align:center;
+	width:30%;
+
+}
+.id{
+	border: solid;
+	color: #303c64;
+	padding: 40px 80px 40px 80px;
+	margin: 40px 80px 40px 80px;
+	text-align:center;
+	width:30%;
+
+
+}
+.sndfrm{
+	padding: 40px 80px 40px 80px;
+	margin: 40px 80px 40px 80px;
+	text-align: center;
+	width: 15%;
+	border: solid;
+	color: #303c64;
+
+	}
+.sndto{
+	padding: 40px 80px 40px 80px;
+	margin: 40px 80px 40px 80px;
+	text-align: center;
+	width: 15%;
+	border:solid;
+	color: #303c64;
+
+	}
+.personal{
+	padding: 40px 100px 40px 100px;
+	margin: 40px 80px 40px 80px;
+	border: solid;
+	font-family: Helvetica, Arial, Sans-serif;
+	color: #303c64;
+}
+.item{
+	padding: 40px 100px 40px 100px;
+	margin: 40px 80px 40px 80px;
+	border: solid;
+	font-family: Helvetica, Arial, Sans-serif;
+	color: #303c64;
+}
+.form{
+	padding: 20px 20px 20px 20px;
+	margin: 30px 30px 30px 40px;
+	border: solid;
+	background-color: #5cb388; 
+	font-family: Helvetica, Arial, sans-serif;
+	color: #303c64;
+}
+.box{
+	background-color: #777777;
+	color: ##303c64
+}
+	
